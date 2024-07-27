@@ -1,0 +1,246 @@
+
+/* M2 "Laurent Rosello" */
+
+/*menu nav */
+
+body {
+    margin:0px;
+}
+
+.logo1 {
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*couleur texte menu*/
+
+.textes {
+    color: white;
+    
+}
+
+
+
+/*couleur menu*/
+.menu {
+  background-color: #131a22;
+  
+}
+
+
+/*menu principale =>logo et lien "Mettre a jour l'emplacement"*/
+
+.sousmenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+.lien3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.loupe {
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    background-color: #fff;
+}
+
+/*bouton recherche*/
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* boutton1 gris */
+.category-button {
+    background-color:grey; /* gris  */
+    color: white;
+    border: none;
+    padding: 0px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:  10px  0px 0px 10px;
+    
+}
+/* boutton gris survole */
+.category-button:hover {
+    background-color: #747574;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+/* boutton recherche */
+.champ-recherche {
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+
+/* boutton2  loupe */
+.loupe-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    background-color: #008CBA; /* Bleu */
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    
+}
+/* boutton2  image loupe */
+.loupe{
+    width: 37px;
+    border-radius : 0 5px 5px 0 ;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    background-color:#f0885b;
+}
+
+.loupe:hover {
+    background-color: #d16738;
+}
+
+
+
+/* image panier*/
+.panier{
+    
+    padding-right: 5px;
+    margin-top: 10px;
+
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+/* texte panier*/
+.panier1 {
+    margin-top: 0px;
+    color: white;
+  
+}
+
+/* menu nav*/
+
+.menunav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+
+padding-top: 0px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 20px;
+text-align: center;
+
+background-color: #232f3e;
+
+}
+.nav {
+    height:30px;
+    display: column;
+    text-decoration: none;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #131a22;
+    
+}
+/* ____________________________________________________________________________________________ */
+
+
+h1{
+font-style: italic; 
+font-weight: bold;
+font-size: 90%;
+background-color: blue;}
+
+.aurore{ 
+    background-color: red;
+        position: absolute;
+        right: 250px;
+        top: 150px;
+
+}
+
+.test{display:flex;
+justify-content: end;}
+
+
+.test {position: absolute;
+        bottom: 100px;
+        top: 110px;
+        z-index: 2 ;
+}
+/* ____________________________________________________________ */
+.petitoverview {
+    background-color: rgb(10, 61, 122);
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+    .photo1{
+    
+        background-color: rgb(6, 79, 7);
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 00px;
+
+    font-size: 90%
+
+}
+.headers {
+    padding: 300px;
+    height: 600px;
+    background-color: #f0885b;
+    /* _____________________________________ */
+    /*display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;  */
+
+}
